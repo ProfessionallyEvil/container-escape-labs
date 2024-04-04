@@ -1,0 +1,1 @@
+cmd_/vagrant/capabilities/revshell.ko := ld -r -m elf_x86_64 --build-id  -T ./scripts/module-common.lds -o /vagrant/capabilities/revshell.ko /vagrant/capabilities/revshell.o /vagrant/capabilities/revshell.mod.o;  true

